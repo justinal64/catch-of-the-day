@@ -131,4 +131,8 @@ class App extends React.Component {
   }
 }
 
+App.propType = {
+  params: React.PropTypes.object.isRequired
+};
+
 export default App;
