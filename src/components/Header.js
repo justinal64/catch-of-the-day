@@ -20,4 +20,9 @@ const Header = props => {
   );
 };
 
+// you must pass a string in for the tagline
+Header.propTypes = {
+  tagline: React.PropTypes.string.isRequired
+};
+
 export default Header;
